@@ -3,77 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>karim mujawar - portfolio </title>
+    <title> Portfolio</title>
 </head>
 <body>
 <header>
-    <h1>Karim Mujawar</h1>
+    <img src="K.jpg" alt="Photo of KARIM" width="150" loading="lazy">
+    <h1>Karim's Professional Portfolio</h1>
+    <p>B.Tech Student | Aspiring Full Stack Web Developer</p>
+    
     <nav>
-        <a href="#bio">Bio</a>
-        <a href="#projects">Projects</a>
+        <a href="#about">About</a> | 
+        <a href="#skills">Skills</a> | 
+        <a href="#projects">Projects</a> | 
+        <a href="#achievements">Achievements</a> | 
         <a href="#contact">Contact</a>
     </nav>
 </header>
-<section id="bio">
+<main>
+<section id="about">
     <h2>About Me</h2>
-    <p>Hello! My Name is Karim Mujawar. I am a B.tect student interested in web development and programming.</p>
-    
-    <h3>My Skills</h3>
-    <ul>
-        <li>HTML</li>
-        <li>Python</li>
-        <li>C</li>
-        <li>C++</li>
-    </ul>
+    <p>I am Karim Mujawar student at MIT Vishwaprayag university pursuing my <strong>Bachelor of Technology</strong> (<abbr title="Bachelor of Technology">B.Tech</abbr>) degree  and have a great experince in tech. </p>
 </section>
+<section id="skills-table-container">
+    <h3>Skills </h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th scope="col">Skill Name</th>
+                <th scope="col">Proficiency Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML5</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Bginner</td>
+            </tr>
+            <tr>
+                <td>C & C++</td>
+                <td>Intermediate</td>
+            <tr>
+                <td>JavaScript</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Git & GitHub</td>
+                <td>Intermediate</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+
 <section id="projects">
     <h2>My Projects</h2>
-
     <article>
-        <h3>Portfolio Website</h3>
-
-        <p>
-            A personal portfolio website created using HTML5.
-        </p>
-
-        <a href="https://github.com/"
-            view project
-        </a>
+        <h3>Project : Personal Portfolio</h3>
+        <p>A live working website named "Deepfake Detector" which can detect deepfake videos in real time</p>
+        <p>A real IOT sensor for Monitoring garbage level in real time</p>
+        <p>A bank management system which can manage all the bank operations</p>
+        <a href="https://github.com" target="_blank">View Code</a>
     </article>
 </section>
+    <section id="achievements">
+        <h2>Key Achievements</h2>
+        <ul>
+            <li>Successfully built structured code architectures in FSD Lab .</li>
+            <li>Completed Real World IOT problem using Components.</li>
+            
+        </ul>
+    </section>
+
+</main>
 
 <section id="contact">
     <h2>Contact Me</h2>
-
     <form>
-        <Label for="name">Name:</Label>
-        <input type="text" id="name" name="name">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" required><br><br>
         
-        <br><br>
-
-        <Label for="email">Email:</Label>
-        <input type="text" id="email" email="email">
-
-        <br><br>
-
-        <label for="message">Message:</label>
-        <input type="text" id="message" message="message">
-
-        <br><br>
-
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" required></textarea><br><br>
+        
         <button type="submit">Submit</button>
     </form>
 </section>
+</main> 
+
 <footer>
-    <p>&copy; 2026 Karim Mujawar. All rights reserved.</p>
+    <address>
+        Contact KARIM at: <a href="mailto:karimmujawar@gmail.com">karimjavidmujawar@gmail.com</a><br>
+        Connect on: <a href="https://github.com" target="_blank" rel="noopener">GitHub</a> | 
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+    </address>
+    <p>&copy; 2026 KARIM. All rights reserved.</p>
 </footer>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karim Mujawar - Portfolio</title>
-</head>
 
 
 </body>
